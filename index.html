@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Monteiro</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Um pouco sobre Gabriel </h1>
+    </header>
+    <main>
+        <p>
+            Olá meu Nome é Gabriel Monteiro tenho <output id="iano"></output> anos. 
+        </p>
+        <div id="minha">
+            <img src="imagens/me01.jpg" alt="jpg">
+        </div>
+        <p>
+            Nasci em Taubaté interior de são paulo. <br>
+            Fiz todo meu ensino fundamental e ensino médio na escola escola anna dos reis signorini <a href="https://guiataubate.com.br/projetos-municipais-em-taubate/sedes-sistema-educacional-de-desenvolvimento-social" target="_blank">"SEDES"</a>
+        </p>
+        <p>
+            Atualmente eu desenvolvo em html css e javascript, e estou estudando mais sobre outras linguagens de programação
+        </p>
+    </main>
+    <footer>
+        <p>
+            portfolio feito por <a href="https://github.com/GabrielMonteiro15" target="_blank">Gabriel</a>
+        </p>
+    </footer>
+    <script>
+        function calIdade() {
+            let me = 2006;
+            let ano = new Date().getFullYear();
+            document.getElementById("iano").innerHTML = ano - me;
+        }
+        calIdade();
+    </script>
+</body>
+</html>
