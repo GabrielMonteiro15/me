@@ -25,14 +25,10 @@ h1, h2 {
 p{
     font-size: 1em;
 }
-.conteudo{
-    display: flex;
-}
 .inf {
     margin-left: 20px; 
     margin-right: 200px;
 }
-
 .cont {
     margin-top: 20px;
     padding: 10px;
@@ -46,8 +42,6 @@ p{
 h1{
     font-family: var(--font-tit);
 }
-
-
 div#minha > img{
     
     width: 100px;
@@ -70,17 +64,3 @@ a:hover{
     color: rgb(150, 150, 150);
     background-color: rgba(129, 129, 129, 0.664);
 }
-
-
-.projetos {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px; 
-}
-
-iframe {
-    width: 50%; 
-    box-sizing: border-box; 
-}
-
-
